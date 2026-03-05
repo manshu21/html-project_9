@@ -1,0 +1,116 @@
+/* universal margin and padding
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+/* nav bar following sections */
+a {
+  text-decoration: none;
+  color: grey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* styling the first button */
+.btn1 {
+  height: 40px;
+  width: 110px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  background-color: lightseagreen;
+  color: steelblue;
+  margin-right: 30px;
+  margin-left: 15px;
+}
+
+/* giving the heading a specific color */
+span {
+  color: steelblue;
+}
+
+/* paragraph styling */
+.para {
+  padding: 10px;
+  color: grey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* navigation bar positioning  and styling*/
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 90px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+}
+.nav > a {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  margin: 0 15px;
+  padding-right: 0px 10px;
+}
+
+/* ---/ */
+
+/* logo styling */
+.logo {
+  padding: 0.1vh 3vh;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+/* both div positioning and styling */
+.left-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-div {
+  margin: 10px;
+}
+
+.heading {
+  padding: 10px;
+}
+
+.btn2 {
+  height: 60px;
+  width: 200px;
+  background-color: steelblue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 25px;
+  transition: transform 0.9s ease-in-out;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+/* ---/ */
+
+/* hovering effect on button2 */
+.btn2:hover {
+  transform: skew(15deg) rotate(-4deg) scale(1.1);
+  border-radius: 8px;
+  background-color: blueviolet;
+}
